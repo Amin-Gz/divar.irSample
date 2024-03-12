@@ -1,6 +1,6 @@
 // import React from "react";
 import LogIn from "../oragans/LogIn";
-import MpHeader from "../oragans/MpHeader";
+import MpHeader from "../oragans/Header";
 
 function NewProduct() {
   return (

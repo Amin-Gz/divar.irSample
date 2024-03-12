@@ -5,7 +5,7 @@ import { GrLocation } from "react-icons/gr";
 
 function MpHeader() {
   return (
-    <header className="fixed top-0 right-0 w-full h-[64px] px-4 border-b flex items-center justify-center">
+    <header className="static top-0 right-0 w-full h-[64px] px-4 border-b flex items-center justify-center">
       {/* mobile */}
       <nav className="bg-[#efefef90] my-3 w-full h-[40px] rounded-sm flex md:hidden">
         <form action="" className="w-full relative ">
@@ -18,7 +18,7 @@ function MpHeader() {
         </form>
         <div className="flex items-center ">
           <hr className="h-[1.5rem] w-[1px] bg-[rgba(0,30,50,0.35)] mx-1"></hr>
-          <p className="mx-2 text-divarfont">تهران</p>
+          <p className="mx-2 text-divarFont">تهران</p>
           <GrLocation className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2" />
         </div>
       </nav>
@@ -34,7 +34,7 @@ function MpHeader() {
         <hr className="h-[1.5rem] w-[1px] bg-[rgba(0,30,50,0.15)] mr-4 ml-3"></hr>
         <button className="h-[40px] px-4 flex items-center  hover:bg-[#00000010] rounded-sm group">
           <GrLocation className="stroke-[#707070] hover:text-black scale-110  stroke-2 group-hover:stroke-black" />
-          <p className="mr-2 text-divarfont font-medium text-[14px] group-hover:text-black">
+          <p className="mr-2 text-divarFont font-medium text-[14px] group-hover:text-black">
             تهران
           </p>
         </button>
@@ -44,7 +44,7 @@ function MpHeader() {
             <input
               type="text"
               placeholder="جستجو در همه آگهی ها"
-              className="  px-1 py-[5px] rounded-sm outline-none w-full border hover:border-divarfont focus:border-divar font-[100] inline-block relative pr-[30px]"
+              className="  px-1 py-[5px] rounded-sm outline-none w-full border hover:border-divarFont focus:border-divar font-[100] inline-block relative pr-[30px]"
             />
             <FaSearch className="absolute top-[10px] right-[10px] fill-[rgba(0,30,50,0.35)]" />
           </form>

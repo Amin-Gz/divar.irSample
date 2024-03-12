@@ -1,4 +1,4 @@
-import MpHeader from "../oragans/MpHeader";
+import MpHeader from "../oragans/Header";
 
 function MainPage() {
   return (

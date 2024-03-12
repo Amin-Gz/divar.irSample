@@ -5,8 +5,9 @@ export default {
     extend: {
       colors: {
         divar: "rgba(166, 38, 38, 0.56);",
-        divarfont: "#0000008F",
-        bordercolor: "#e5e7eb",
+        divarFont: "#0000008F",
+        divarFontRed: "#a62626",
+        borderColor: "#e5e7eb",
       },
     },
   },
