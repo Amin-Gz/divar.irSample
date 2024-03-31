@@ -1,7 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* @layer utilities {
+  .placeholder-style::placeholder {
+    direction: rtl;
+  }
+} */
 @font-face {
   font-family: IRANSans;
   font-style: normal;
@@ -28,6 +32,17 @@
 }
 
 :root {
-  font-family: IRANSans;
-  /* --button-height: 40px; */
+  font-family: IRANSans ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input ::placeholder {
+  color: #000000 !important;
 }

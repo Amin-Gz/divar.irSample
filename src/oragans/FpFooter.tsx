@@ -7,7 +7,7 @@ function FpFooter() {
   return (
     <div className="flex flex-col items-center w-full ">
       <Enamad />
-      <SocialPages />
+      <SocialPages className="w-[240px] gap-[30px]" />
     </div>
   );
 }

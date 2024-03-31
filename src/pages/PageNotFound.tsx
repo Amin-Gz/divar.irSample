@@ -1,9 +1,9 @@
-import MpHeader from "../oragans/Header";
+import Header from "../oragans/Header";
 
 function PageNotFound() {
   return (
     <>
-      <MpHeader />
+      <Header />
       <section className=" w-screen m-0 p-0 flex flex-col justify-start items-center text-divarFont">
         <img
           src="./src/assets/pics/error404.png"
