@@ -5,7 +5,7 @@ import { GrLocation } from "react-icons/gr";
 
 function Header() {
   return (
-    <header className="static top-0 right-0 w-full h-[64px] px-4 border-b flex items-center justify-center">
+    <header className="fixed top-0 right-0 w-full h-[64px] px-4 border-b flex items-center justify-center bg-white z-10">
       {/* mobile */}
       <nav className="bg-[#efefef90] my-3 w-full h-[40px] rounded-sm flex md:hidden">
         <form action="" className="w-full relative ">

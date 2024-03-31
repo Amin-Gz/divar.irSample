@@ -32,8 +32,8 @@
 }
 
 :root {
-  font-family: IRANSans input;
-  
+  font-family: IRANSans ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
