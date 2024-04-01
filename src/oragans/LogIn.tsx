@@ -34,10 +34,12 @@ function LogIn() {
   }
   function submitHandler() {
     if (!show && signup) {
+      // phone entering modal
       phone === "" || !hidden
         ? setChangeBorder("border-red-500 border-2")
         : (setShow(true), setChangeBorder("border-borderColor border"));
     } else if (!show && !signup) {
+      // signin modal
       console.log(password);
       console.log(phone);
       appAxios
@@ -49,6 +51,7 @@ function LogIn() {
           console.log(error);
         });
     } else {
+      //  login modal
       password === undefined
         ? (setwrongPass(true), console.log("object"))
         : appAxios
@@ -100,7 +103,7 @@ function LogIn() {
                 type="number"
                 name="phone"
                 id="phone"
-                className="w-full outline-none pl-2 text-black placeholder-style"
+                className="w-full outline-none pl-2 text-black placeholder-style placeholder:text-end"
                 placeholder="شمارهٔ موبایل"
                 onChange={usernameHandler}
               />

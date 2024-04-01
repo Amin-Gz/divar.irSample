@@ -27,7 +27,7 @@ const router = createBrowserRouter([
     element: <ProductDetails />,
   },
 ]);
-function App() {
+function Routs() {
   return (
     <RecoilRoot>
       <RouterProvider router={router} />
@@ -35,4 +35,4 @@ function App() {
   );
 }
 
-export default App;
+export default Routs;

@@ -1,11 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @layer utilities {
-  .placeholder-style::placeholder {
-    direction: rtl;
-  }
-} */
+
 @font-face {
   font-family: IRANSans;
   font-style: normal;

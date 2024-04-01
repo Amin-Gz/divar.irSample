@@ -12,7 +12,7 @@ function ProductDetails() {
   return (
     <>
       <Header />
-      <section className="w-[clac(full-63px)] ">
+      <section className="w-full ">
         <div className="md:max-w-[1024px] mt-[64px] md:min-w-[960px] w-full mx-auto">
           <BreadCrump />
           <div className="flex w-full h-full md:p-0">
@@ -34,7 +34,7 @@ function ProductDetails() {
                 <h3 className="text-divarFontHover pb-4 pt-2">
                   دقایقی پیش در تهران، تهرانپارس شرقی
                 </h3>
-                <button className=" relative w-full pr-6 border-y py-3 z-0 text-start">
+                <button className=" relative w-full pr-6 border-y py-3 text-start">
                   <BsExclamationTriangle className="absolute right-0 top-4 scale-110 fill-divarFontHover" />
                   زنگ خطرهای قبل از معامله
                   <IoIosArrowBack className="absolute left-0 top-4 fill-divarFontHover" />
@@ -140,7 +140,8 @@ function ProductDetails() {
             </div>
           </div>
           <Footer />
-          <div className="w-full h-16"></div>
+          {/* footer menu mobile */}
+          <div className="w-full h-16 md:hidden"></div>
           <div className=" *:w-[183px] *:h-[40px] *:rounded-md *:px-4 *:font-medium fixed bottom-0 w-full flex justify-around items-start py-3 bg-white z-10 border-t md:hidden">
             <button className="bg-divarFontRed text-white ml-2">
               اطلاعات تماس
