@@ -1,9 +1,8 @@
-// import React from 'react'
 import { FaSearch } from "react-icons/fa";
 import { GrLocation } from "react-icons/gr";
-// import "../index.css";
 
 function Header() {
+  // heder biroone section gozashte shavad
   return (
     <header className="fixed top-0 right-0 w-full h-[64px] px-4 border-b flex items-center justify-center bg-white z-10">
       {/* mobile */}
@@ -61,9 +60,12 @@ function Header() {
           <button className="h-[40px] w-[80px] flex items-center justify-center hover:bg-[#00000010] rounded-sm">
             پشتیبانی
           </button>
-          <button className="bg-divarFontRed text-white h-[40px] px-4 flex items-center rounded-sm">
+          <a
+            href="/newproduct"
+            className="bg-divarFontRed text-white h-[40px] px-4 flex items-center rounded-sm"
+          >
             ثبت آگهی
-          </button>
+          </a>
         </div>
       </nav>
     </header>

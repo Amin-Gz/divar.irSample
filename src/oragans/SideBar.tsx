@@ -1,15 +1,29 @@
-import { GrLocation } from "react-icons/gr";
+import { BsPeopleFill } from "react-icons/bs";
+import { CiMobile2 } from "react-icons/ci";
+import { FaBriefcase, FaCar, FaDice, FaTools } from "react-icons/fa";
+import { FaBrush } from "react-icons/fa6";
+import { LuLamp } from "react-icons/lu";
+import { MdKeyboardArrowDown, MdOutlineRealEstateAgent } from "react-icons/md";
+import { TiWatch } from "react-icons/ti";
+import SubMenuFooter from "../molecules/SubMenuFooter";
+import SocialPages from "../molecules/SocialPages";
+import Enamad from "../molecules/Enamad";
 function SideBar() {
+  function expand(e: any) {
+    console.log(e);
+    e.target.classList.replace("h-[58px]", "h-[116px]");
+    console.log(e.target.classList);
+  }
   return (
-    <div className="felx flex-col w-full md:w-[380px] md:h-full items-center justify-between  p-5">
-      <ul className="grid grid-cols-4 md:grid-cols-1 gap-6 text-[14px]">
+    <div className="felx flex-col w-full md:w-[380px] items-center justify-between overflow-scroll p-5">
+      <ul className="grid grid-cols-4 md:grid-cols-1 gap-6 md:gap-[14px] text-[14px] mb-4">
         <p className="hidden md:inline-block">دسته ها</p>
         <li>
           <a
             href="#"
-            className="text-center md:text-start bg-slate-50 w-fit md:w-full flex flex-col items-center md:flex-row"
+            className="text-center md:text-start  w-fit md:w-full flex flex-col items-center md:flex-row text-divarFontHover hover:text-black"
           >
-            <GrLocation className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
+            <MdOutlineRealEstateAgent className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
             <img
               src="./src/assets/pics/real-estate.png"
               alt="house"
@@ -21,9 +35,9 @@ function SideBar() {
         <li>
           <a
             href="#"
-            className="text-center md:text-start bg-slate-50  w-fit md:w-full flex flex-col items-center md:flex-row"
+            className="text-center md:text-start w-fit md:w-full flex flex-col items-center md:flex-row text-divarFontHover hover:text-black"
           >
-            <GrLocation className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
+            <FaCar className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
             <img
               src="./src/assets/pics/vehicles.png"
               alt="house"
@@ -35,9 +49,9 @@ function SideBar() {
         <li>
           <a
             href="#"
-            className="text-center md:text-start bg-slate-50  w-fit md:w-full flex flex-col items-center md:flex-row"
+            className="text-center md:text-start w-fit md:w-full flex flex-col items-center md:flex-row text-divarFontHover hover:text-black"
           >
-            <GrLocation className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
+            <CiMobile2 className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
             <img
               src="./src/assets/pics/electronic-devices.png"
               alt="house"
@@ -49,9 +63,9 @@ function SideBar() {
         <li>
           <a
             href="#"
-            className="text-center md:text-start bg-slate-50 w-fit md:w-full flex flex-col items-center md:flex-row"
+            className="text-center md:text-start  w-fit md:w-full flex flex-col items-center md:flex-row text-divarFontHover hover:text-black"
           >
-            <GrLocation className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
+            <LuLamp className="fill-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
             <img
               src="./src/assets/pics/home-kitchen.png"
               alt="house"
@@ -63,9 +77,9 @@ function SideBar() {
         <li>
           <a
             href="#"
-            className="text-center md:text-start bg-slate-50 w-fit md:w-full flex flex-col items-center md:flex-row"
+            className="text-center md:text-start  w-fit md:w-full flex flex-col items-center md:flex-row text-divarFontHover hover:text-black"
           >
-            <GrLocation className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
+            <FaBrush className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
             <img
               src="./src/assets/pics/services.png"
               alt="house"
@@ -77,9 +91,9 @@ function SideBar() {
         <li>
           <a
             href="#"
-            className="text-center md:text-start bg-slate-50 w-fit md:w-full flex flex-col items-center md:flex-row"
+            className="text-center md:text-start w-fit md:w-full flex flex-col items-center md:flex-row text-divarFontHover hover:text-black"
           >
-            <GrLocation className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
+            <TiWatch className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
             <img
               src="./src/assets/pics/personal.png"
               alt="house"
@@ -91,9 +105,9 @@ function SideBar() {
         <li>
           <a
             href="#"
-            className="text-center md:text-start bg-slate-50 w-fit md:w-full flex flex-col items-center md:flex-row"
+            className="text-center md:text-start  w-fit md:w-full flex flex-col items-center md:flex-row text-divarFontHover hover:text-black"
           >
-            <GrLocation className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
+            <FaDice className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
             <img
               src="./src/assets/pics/leisure-hobbies.png"
               alt="house"
@@ -105,9 +119,9 @@ function SideBar() {
         <li>
           <a
             href="#"
-            className="text-center md:text-start bg-slate-50  w-fit md:w-full flex flex-col items-center md:flex-row"
+            className="text-center md:text-start   w-fit md:w-full flex flex-col items-center md:flex-row text-divarFontHover hover:text-black"
           >
-            <GrLocation className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
+            <BsPeopleFill className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
             <img
               src="./src/assets/pics/community.png"
               alt="house"
@@ -119,9 +133,9 @@ function SideBar() {
         <li>
           <a
             href="#"
-            className="text-center md:text-start bg-slate-50 w-fit md:w-full flex flex-col items-center md:flex-row"
+            className="text-center md:text-start  w-fit md:w-full flex flex-col items-center md:flex-row text-divarFontHover hover:text-black"
           >
-            <GrLocation className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
+            <FaTools className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
             <img
               src="./src/assets/pics/tools-materials-equipment.png"
               alt="house"
@@ -133,9 +147,9 @@ function SideBar() {
         <li>
           <a
             href="#"
-            className="text-center md:text-start bg-slate-50 w-fit md:w-full flex flex-col items-center md:flex-row"
+            className="text-center md:text-start  w-fit md:w-full flex flex-col items-center md:flex-row text-divarFontHover hover:text-black"
           >
-            <GrLocation className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
+            <FaBriefcase className="stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 hidden md:block " />
             <img
               src="./src/assets/pics/jobs.png"
               alt="house"
@@ -145,14 +159,46 @@ function SideBar() {
           </a>
         </li>
       </ul>
-      <br />
-      <hr />
-      <div className="hidden md:block">محل</div>
-      <hr />
-      <div className="hidden md:block">قیمت</div>
-      <hr />
-      <div className="hidden md:block">وضعیت آگهی</div>
-      <hr />
+      <button
+        className="hidden md:block gap-2 py-2 h-[58px] border-y overflow-hidden w-full"
+        onClick={(e) => {
+          expand(e);
+        }}
+      >
+        <p className="text-sm h-10 flex items-center ">
+          <MdKeyboardArrowDown />
+          محل
+        </p>
+        <input type="text" className="border outline-none h-6 mt-2" />
+      </button>
+      <button
+        className="hidden md:block gap-2 py-2 h-[58px] border-y overflow-hidden w-full"
+        onClick={(e) => {
+          expand(e);
+        }}
+      >
+        <p className="text-sm h-10 flex items-center ">
+          <MdKeyboardArrowDown />
+          قیمت
+        </p>
+        <input type="text" className="border outline-none h-6 mt-2" />
+      </button>
+
+      <button
+        className="hidden md:block gap-2 py-2 h-[58px] border-y overflow-hidden w-full"
+        onClick={(e) => {
+          expand(e);
+        }}
+      >
+        <p className="text-sm h-10 flex items-center ">
+          <MdKeyboardArrowDown />
+          وضعیت آگهی
+        </p>
+        <input type="text" className="border outline-none h-6 mt-2" />
+      </button>
+      <SubMenuFooter class="text-[12px] gap-4 leading-6 mt-4" />
+      <SocialPages className="w-full gap-4" />
+      <Enamad />
     </div>
   );
 }

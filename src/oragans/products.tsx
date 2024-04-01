@@ -1,4 +1,4 @@
-import Product from "../molecule/Product";
+import Product from "../molecules/Product";
 
 function Products() {
   return (

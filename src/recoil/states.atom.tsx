@@ -35,3 +35,7 @@ export const rChangeBorder = atom({
   key: "changeBorder",
   default: "border-borderColor border",
 });
+export const rAuth = atom({
+  key: "Authorize",
+  default: false,
+});

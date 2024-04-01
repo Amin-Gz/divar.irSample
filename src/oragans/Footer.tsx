@@ -1,4 +1,5 @@
-import SocialPages from "../molecule/SocialPages";
+import SocialPages from "../molecules/SocialPages";
+import SubMenuFooter from "../molecules/SubMenuFooter";
 
 function Footer() {
   return (
@@ -9,23 +10,7 @@ function Footer() {
           alt=""
           className="w-[32px] h-[32px] grayscale"
         />
-        <ul className="flex  text-divarFont text-[10px] *:border-l *:px-2">
-          <li className="hover:text-divarFontHover">
-            <a href="#">دربارهٔ دیوار</a>
-          </li>
-          <li className="hover:text-divarFontHover">
-            <a href="#">پشتیبانی و قوانین</a>
-          </li>
-          <li className="hover:text-divarFontHover">
-            <a href="#">اتاق خبر</a>
-          </li>
-          <li className="hover:text-divarFontHover">
-            <a href="#">کسب‌وکارها</a>
-          </li>
-          <li className="border-none hover:text-divarFontHover">
-            <a href="#">دریافت برنامه</a>
-          </li>
-        </ul>
+        <SubMenuFooter class="text-[10px] *:border-l *:px-2" />
       </div>
       <SocialPages className="w-[160px] gap-[16px]" />
     </div>

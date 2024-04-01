@@ -1,7 +1,5 @@
-// import React from "react";
-
-import SocialPages from "../molecule/SocialPages";
-import Enamad from "../molecule/Enamad";
+import SocialPages from "../molecules/SocialPages";
+import Enamad from "../molecules/Enamad";
 
 function FpFooter() {
   return (
