@@ -1,7 +1,5 @@
-// import React from 'react'
 import { FaSearch } from "react-icons/fa";
 import { GrLocation } from "react-icons/gr";
-// import "../index.css";
 
 function Header() {
   // heder biroone section gozashte shavad

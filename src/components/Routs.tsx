@@ -1,10 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import MainPage from "./pages/MainPage";
-import FirstPage from "./pages/FirstPage";
-import NewProduct from "./pages/NewProduct";
-import PageNotFound from "./pages/PageNotFound";
+import MainPage from "../pages/MainPage";
+import FirstPage from "../pages/FirstPage";
+import NewProduct from "../pages/NewProduct";
+import PageNotFound from "../pages/PageNotFound";
 import { RecoilRoot } from "recoil";
-import ProductDetails from "./pages/ProductDetails";
+import ProductDetails from "../pages/ProductDetails";
 const router = createBrowserRouter([
   {
     path: "*",

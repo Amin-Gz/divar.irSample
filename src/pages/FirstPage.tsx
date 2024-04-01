@@ -1,4 +1,3 @@
-// import React from "react";
 import FpCities from "../oragans/FpCities";
 import FpFooter from "../oragans/FpFooter";
 import FpNavbar from "../oragans/FpNavbar";

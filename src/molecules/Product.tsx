@@ -1,4 +1,3 @@
-// import React from "react";
 function Product() {
   return (
     // todo react icons chat icon bottomn left side of the second div

@@ -1,5 +1,3 @@
-// import React from "react";
-
 function FpNavbar() {
   return (
     <ul className="flex justify-around w-full border-b p-3">

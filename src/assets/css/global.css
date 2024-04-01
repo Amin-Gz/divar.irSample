@@ -1,0 +1,10 @@
+/* reseting inputs browser default styles */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* automatically invalidate any entry that isn't a number for input type number*/
+input[type="number"] {
+  -moz-appearance: textfield;
+}

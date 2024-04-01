@@ -5,9 +5,9 @@ import { FaBrush } from "react-icons/fa6";
 import { LuLamp } from "react-icons/lu";
 import { MdKeyboardArrowDown, MdOutlineRealEstateAgent } from "react-icons/md";
 import { TiWatch } from "react-icons/ti";
-import SubMenuFooter from "../molecule/SubMenuFooter";
-import SocialPages from "../molecule/SocialPages";
-import Enamad from "../molecule/Enamad";
+import SubMenuFooter from "../molecules/SubMenuFooter";
+import SocialPages from "../molecules/SocialPages";
+import Enamad from "../molecules/Enamad";
 function SideBar() {
   function expand(e: any) {
     console.log(e);

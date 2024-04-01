@@ -1,5 +1,5 @@
-import SocialPages from "../molecule/SocialPages";
-import SubMenuFooter from "../molecule/SubMenuFooter";
+import SocialPages from "../molecules/SocialPages";
+import SubMenuFooter from "../molecules/SubMenuFooter";
 
 function Footer() {
   return (

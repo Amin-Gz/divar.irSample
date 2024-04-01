@@ -1,5 +1,5 @@
 import { AiOutlineDislike, AiOutlineLike } from "react-icons/ai";
-import BreadCrump from "../molecule/BreadCrump";
+import BreadCrump from "../molecules/BreadCrump";
 import Header from "../oragans/Header";
 import { CiBookmark } from "react-icons/ci";
 import { IoShareSocialOutline } from "react-icons/io5";
