@@ -39,3 +39,15 @@ export const rAuth = atom({
   key: "Authorize",
   default: false,
 });
+export const rLoading = atom({
+  key: "Loading",
+  default: true,
+});
+export const rText = atom({
+  key: "text",
+  default: "",
+});
+export const rText2 = atom({
+  key: "text2",
+  default: "",
+});

@@ -61,7 +61,7 @@ function Header() {
             پشتیبانی
           </button>
           <a
-            href="/newproduct"
+            href="/new-product"
             className="bg-divarFontRed text-white h-[40px] px-4 flex items-center rounded-sm"
           >
             ثبت آگهی
