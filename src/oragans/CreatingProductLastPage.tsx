@@ -31,7 +31,7 @@ function CreatingProductLastPage() {
         <DropDown />
       </form>
       <h3>موقعیت مکانی آگهی</h3>
-      {/* for map */}
+      {/* for map location */}
       <img src="./src/assets/pics/map.png" alt="" />
       <h3>عکس آگهی</h3>
       <p>افزودنِ عکس بازدید آگهی شما را تا سه برابر افزایش می‌دهد.</p>
