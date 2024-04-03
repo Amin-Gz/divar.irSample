@@ -39,3 +39,23 @@ export const rAuth = atom({
   key: "Authorize",
   default: false,
 });
+export const rLoading = atom({
+  key: "Loading",
+  default: true,
+});
+export const rText = atom({
+  key: "text",
+  default: "",
+});
+export const rText2 = atom({
+  key: "text2",
+  default: "",
+});
+export const rCategoriNames = atom({
+  key: "Category names",
+  default: "",
+});
+export const rBool = atom({
+  key: " div changer",
+  default: false,
+});

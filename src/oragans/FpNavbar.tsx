@@ -2,7 +2,7 @@ function FpNavbar() {
   return (
     <ul className="flex justify-around w-full border-b p-3">
       <li className="text-[12px] text-divarFont">
-        <a href="newproduct">ثبت آگهی</a>
+        <a href="/new-product">ثبت آگهی</a>
       </li>
       <li className="text-[12px] text-divarFont">
         <a href="#">درباره دیوار</a>
