@@ -28,7 +28,7 @@ function MobileMenu() {
           </li>
           <li>
             <a
-              href="#"
+              href="/new-product"
               className="flex flex-col w-full h-full items-center  text-[20px] justify-center gap-1 *:fill-divarFontHover"
             >
               <IoIosAddCircle />

@@ -4,7 +4,7 @@ function PageNotFound() {
   return (
     <>
       <Header />
-      <section className=" w-screen m-0 p-0 flex flex-col justify-start items-center text-divarFont">
+      <section className=" w-screen m-0 p-0 flex flex-col justify-start items-center text-divarFont text-center ">
         <img
           src="./src/assets/pics/error404.png"
           className="h-[253px] mb-[40px]"

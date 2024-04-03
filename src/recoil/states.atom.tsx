@@ -51,3 +51,11 @@ export const rText2 = atom({
   key: "text2",
   default: "",
 });
+export const rCategoriNames = atom({
+  key: "Category names",
+  default: "",
+});
+export const rBool = atom({
+  key: " div changer",
+  default: false,
+});

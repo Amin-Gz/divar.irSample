@@ -4,8 +4,18 @@ import { FaBriefcase, FaBrush, FaCar, FaDice, FaTools } from "react-icons/fa";
 import { LuLamp } from "react-icons/lu";
 import { MdArrowBackIosNew, MdOutlineRealEstateAgent } from "react-icons/md";
 import { TiWatch } from "react-icons/ti";
+import { useRecoilState } from "recoil";
+import { rBool, rCategoriNames } from "../recoil/states.atom";
 
 function Categories(style: any) {
+  const [, settitle] = useRecoilState(rCategoriNames);
+  const [, setbool] = useRecoilState(rBool);
+  function buttonHandler(e: any) {
+    console.log(window.location.href);
+    window.location.href.search("new-product") != -1 &&
+      (settitle(e.target.innerText), setbool(true));
+  }
+  // window.location.href
   return (
     <ul className={`grid text-[14px] mb-4 ${style.ulStyle}`}>
       <p className={style.pStyle}>دسته ها</p>
@@ -13,6 +23,9 @@ function Categories(style: any) {
         <a
           href="#"
           className={`${style.aStyle} flex items-center w-full text-divarFontHover hover:text-[#000000da] relative`}
+          onClick={() => {
+            buttonHandler(event);
+          }}
         >
           <MdOutlineRealEstateAgent
             className={`stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 ${style.iconStyle}`}
@@ -30,6 +43,9 @@ function Categories(style: any) {
         <a
           href="#"
           className={`${style.aStyle} flex items-center w-full text-divarFontHover hover:text-[#000000da] relative`}
+          onClick={() => {
+            buttonHandler(event);
+          }}
         >
           <FaCar
             className={`stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 ${style.iconStyle}`}
@@ -47,6 +63,9 @@ function Categories(style: any) {
         <a
           href="#"
           className={`${style.aStyle} flex items-center w-full text-divarFontHover hover:text-[#000000da] relative`}
+          onClick={() => {
+            buttonHandler(event);
+          }}
         >
           <CiMobile2
             className={`stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 ${style.iconStyle}`}
@@ -64,6 +83,9 @@ function Categories(style: any) {
         <a
           href="#"
           className={`${style.aStyle} flex items-center w-full text-divarFontHover hover:text-[#000000da] relative`}
+          onClick={() => {
+            buttonHandler(event);
+          }}
         >
           <LuLamp
             className={`fill-[rgba(0,30,50,0.35)] scale-110 ml-2 ${style.iconStyle}`}
@@ -81,6 +103,9 @@ function Categories(style: any) {
         <a
           href="#"
           className={`${style.aStyle} flex items-center w-full text-divarFontHover hover:text-[#000000da] relative`}
+          onClick={() => {
+            buttonHandler(event);
+          }}
         >
           <FaBrush
             className={`stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 ${style.iconStyle}`}
@@ -98,6 +123,9 @@ function Categories(style: any) {
         <a
           href="#"
           className={`${style.aStyle} flex items-center w-full text-divarFontHover hover:text-[#000000da] relative`}
+          onClick={() => {
+            buttonHandler(event);
+          }}
         >
           <TiWatch
             className={`stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 ${style.iconStyle}`}
@@ -115,6 +143,9 @@ function Categories(style: any) {
         <a
           href="#"
           className={`${style.aStyle} flex items-center w-full text-divarFontHover hover:text-[#000000da] relative`}
+          onClick={() => {
+            buttonHandler(event);
+          }}
         >
           <FaDice
             className={`stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 ${style.iconStyle}`}
@@ -132,6 +163,9 @@ function Categories(style: any) {
         <a
           href="#"
           className={`${style.aStyle} flex items-center w-full text-divarFontHover hover:text-[#000000da] relative`}
+          onClick={() => {
+            buttonHandler(event);
+          }}
         >
           <BsPeopleFill
             className={`stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 ${style.iconStyle}`}
@@ -149,6 +183,9 @@ function Categories(style: any) {
         <a
           href="#"
           className={`${style.aStyle} flex items-center w-full text-divarFontHover hover:text-[#000000da] relative`}
+          onClick={() => {
+            buttonHandler(event);
+          }}
         >
           <FaTools
             className={`stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 ${style.iconStyle}`}
@@ -166,6 +203,9 @@ function Categories(style: any) {
         <a
           href="#"
           className={`${style.aStyle} flex items-center w-full text-divarFontHover hover:text-[#000000da] relative`}
+          onClick={() => {
+            buttonHandler(event);
+          }}
         >
           <FaBriefcase
             className={`stroke-[rgba(0,30,50,0.35)] scale-110 ml-2 ${style.iconStyle}`}

@@ -27,7 +27,7 @@ function LogIn(style: any) {
   const [changeBorder, setChangeBorder] = useRecoilState(rChangeBorder);
   const [text, settext] = useRecoilState(rText);
   const [text2, settext2] = useRecoilState(rText2);
-  const [bool, setbool] = useRecoilState(rLoading);
+  const [, setload] = useRecoilState(rLoading);
   function usernameHandler(e: any) {
     let _phone: string = e.target.value;
     _phone.length === 10 && _phone.at(0) === "9"
@@ -76,7 +76,7 @@ function LogIn(style: any) {
               console.log(response);
               const token = response.data.accessToken;
               localStorage.setItem("token", token);
-              setbool(false);
+              setload(false);
             })
             .catch((error) => {
               console.error(error);

@@ -1,0 +1,15 @@
+#CPLP h3,
+#CPLP label {
+  font-weight: 500;
+  line-height: 32px;
+  padding: 8px 0;
+  margin-top: 8px;
+}
+#CPLP p {
+  font-size: 14px;
+  color: #0000008f;
+}
+#CPLP input:focus,
+#CPLP textarea:focus {
+  border-color: #a62626;
+}
