@@ -7,7 +7,7 @@ import { useRecoilState } from "recoil";
 import { rAuth, rBool, rLoading } from "../recoil/states.atom";
 import { IoMdArrowRoundForward } from "react-icons/io";
 import { FaSearch } from "react-icons/fa";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function NewProduct() {
   const [auth, setAuth] = useRecoilState(rAuth);
