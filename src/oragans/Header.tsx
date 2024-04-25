@@ -1,5 +1,6 @@
 import { FaSearch } from "react-icons/fa";
 import { GrLocation } from "react-icons/gr";
+import { Link } from "react-router-dom";
 
 function Header() {
   // heder biroone section gozashte shavad
@@ -24,13 +25,13 @@ function Header() {
       {/* tablet  and laptop*/}
       <nav className=" w-full h-full hidden md:flex  justify-between">
         <div className="flex items-center gap-5">
-          <a href="/main">
+          <Link to="/main">
             <img
               src="./src/assets/pics/divarLogo.svg"
               className="w-[48px] h-[48px] "
               alt="Divar_Logo"
             />
-          </a>
+          </Link>
           <hr className="h-[1.5rem] w-[1px] bg-[rgba(0,30,50,0.15)] "></hr>
           <button className="h-[40px] px-4 flex items-center  hover:bg-[#00000010] rounded-sm group">
             <GrLocation className="stroke-[#707070] hover:text-black scale-110  stroke-2 group-hover:stroke-black" />
@@ -60,12 +61,12 @@ function Header() {
           <button className="h-[40px] w-[80px] flex items-center justify-center hover:bg-[#00000010] rounded-sm">
             پشتیبانی
           </button>
-          <a
-            href="/new-product"
+          <Link
+            to="/new-product"
             className="bg-divarFontRed text-white h-[40px] px-4 flex items-center rounded-sm"
           >
             ثبت آگهی
-          </a>
+          </Link>
         </div>
       </nav>
     </header>
