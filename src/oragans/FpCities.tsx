@@ -1,5 +1,6 @@
 // import React from "react";
 import { FaSearch } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function FpCities() {
   return (
@@ -22,54 +23,54 @@ function FpCities() {
       </h2>
       <ul className="grid grid-cols-3 grid-rows-4  md:grid-cols-5 md:grid-rows-2  place-items-center h-[332px] md:h-[166px] md:mb-0 mb-[30px]  ">
         <li className=" font-medium text-[14px] text-divarFont">
-          <a href="/main" className="hover:cursor-pointer hover:text-black">
+          <Link to="/main" className="hover:cursor-pointer hover:text-black">
             تهران
-          </a>
+          </Link>
         </li>
         <li className=" font-medium text-[14px] text-divarFont">
-          <a href="/main" className="hover:cursor-pointer hover:text-black">
+          <Link to="/main" className="hover:cursor-pointer hover:text-black">
             مشهد
-          </a>
+          </Link>
         </li>
         <li className=" font-medium text-[14px] text-divarFont">
-          <a href="/main" className="hover:cursor-pointer hover:text-black">
+          <Link to="/main" className="hover:cursor-pointer hover:text-black">
             کرج
-          </a>
+          </Link>
         </li>
         <li className=" font-medium text-[14px] text-divarFont">
-          <a href="/main" className="hover:cursor-pointer hover:text-black">
+          <Link to="/main" className="hover:cursor-pointer hover:text-black">
             شیراز
-          </a>
+          </Link>
         </li>
         <li className=" font-medium text-[14px] text-divarFont">
-          <a href="/main" className="hover:cursor-pointer hover:text-black">
+          <Link to="/main" className="hover:cursor-pointer hover:text-black">
             اصفهان
-          </a>
+          </Link>
         </li>
         <li className=" font-medium text-[14px] text-divarFont">
-          <a href="/main" className="hover:cursor-pointer hover:text-black">
+          <Link to="/main" className="hover:cursor-pointer hover:text-black">
             اهواز
-          </a>
+          </Link>
         </li>
         <li className=" font-medium text-[14px] text-divarFont">
-          <a href="/main" className="hover:cursor-pointer hover:text-black">
+          <Link to="/main" className="hover:cursor-pointer hover:text-black">
             تبریز
-          </a>
+          </Link>
         </li>
         <li className=" font-medium text-[14px] text-divarFont">
-          <a href="/main" className="hover:cursor-pointer hover:text-black">
+          <Link to="/main" className="hover:cursor-pointer hover:text-black">
             کرمانشاه
-          </a>
+          </Link>
         </li>
         <li className=" font-medium text-[14px] text-divarFont">
-          <a href="/main" className="hover:cursor-pointer hover:text-black">
+          <Link to="/main" className="hover:cursor-pointer hover:text-black">
             قم
-          </a>
+          </Link>
         </li>
         <li className="col-span-3 md:col-span-1 font-medium text-[14px] text-divarFont">
-          <a href="/main" className="hover:cursor-pointer hover:text-black">
+          <Link to="/main" className="hover:cursor-pointer hover:text-black">
             رشت
-          </a>
+          </Link>
         </li>
       </ul>
       <span className="w-full h-[1px] block bg-borderColor mt-[62px] md:mt-2 mb-[14px]"></span>
