@@ -220,14 +220,14 @@ function LogIn(style: any) {
                 />
                 <IoMdEyeOff
                   className={`absolute right-2 top-3 scale-150 z-10 bg-white hover:cursor-pointer ${showPassword}`}
-                  onClick={(e) => {
+                  onClick={(e: any) => {
                     e.target.parentElement.previousSibling.type = "text";
                     setshowPassword("hidden");
                   }}
                 />
                 <IoMdEye
                   className={`absolute right-2 top-3 scale-150 hover:cursor-pointer `}
-                  onClick={(e) => {
+                  onClick={(e: any) => {
                     console.log(e);
                     e.target.parentElement.previousElementSibling.previousSibling.type =
                       "password";
