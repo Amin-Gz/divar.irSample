@@ -12,7 +12,7 @@ function Product() {
         <p className="break-words">دوچرخه برند بایسیکل </p>
       </div>
       <img
-        src="./src/assets/pics/majazi.png"
+        src="./src/assets/pics/item-1.jpeg"
         alt=""
         className="h-full  rounded-md col-start-2 row-span-2 w-full   "
       />

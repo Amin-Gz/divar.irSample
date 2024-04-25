@@ -20,7 +20,7 @@ function ProductDetails() {
             <div className="h-full w-full md:w-[41.6666666667%] ">
               <div className="block md:hidden">
                 <img
-                  src="./src/assets/pics/majazi.png"
+                  src="./src/assets/pics/item-1.jpeg"
                   alt=""
                   className="w-full  h-[310px] border mb-4 "
                 />
@@ -103,12 +103,20 @@ function ProductDetails() {
             <div className=" h-full w-1/2 mr-[8.3333333333%] hidden md:block">
               <picture className=" flex flex-wrap px-2">
                 <img
-                  src="./src/assets/pics/majazi.png"
+                  src="./src/assets/pics/item-1.jpeg"
                   alt=""
                   className="w-full h-[366px]  rounded-md bg-white border mb-4"
                 />
-                <img src="./src/assets/pics/majazi.png" alt="" />
-                <img src="./src/assets/pics/majazi.png" alt="" />
+                <img
+                  src="./src/assets/pics/item-2.jpeg"
+                  className=" w-28 ml-4 border hover:shadow-sm"
+                  alt=""
+                />
+                <img
+                  src="./src/assets/pics/item-3.jpeg"
+                  className=" w-28 border hover:shadow-sm"
+                  alt=""
+                />
               </picture>
               <textarea
                 name=""
