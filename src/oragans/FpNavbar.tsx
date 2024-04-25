@@ -1,20 +1,22 @@
+import { Link } from "react-router-dom";
+
 function FpNavbar() {
   return (
     <ul className="flex justify-around w-full border-b p-3">
       <li className="text-[12px] text-divarFont">
-        <a href="/new-product">ثبت آگهی</a>
+        <Link to="/new-product">ثبت آگهی</Link>
       </li>
       <li className="text-[12px] text-divarFont">
-        <a href="#">درباره دیوار</a>
+        <Link to="#">درباره دیوار</Link>
       </li>
       <li className="text-[12px] text-divarFont">
-        <a href="#">دریافت برنامه</a>
+        <Link to="#">دریافت برنامه</Link>
       </li>
       <li className="text-[12px] text-divarFont">
-        <a href="#">اتاق خبر</a>
+        <Link to="#">اتاق خبر</Link>
       </li>
       <li className="text-[12px] text-divarFont">
-        <a href="#">پشتیبانی</a>
+        <Link to="#">پشتیبانی</Link>
       </li>
     </ul>
   );
